@@ -1,0 +1,20 @@
+.login-container {
+	max-width: 500px;
+	margin: auto;
+	margin-top: 120px; 
+	padding: 5px 5px;
+	background-color: #312c32;
+    border: 2px solid #000;
+    outline: 2px dashed #daad86;
+    outline-offset: -10px;
+    box-shadow: 3px 3px 5px 6px #838084;
+    transition-timing-function: ease-in;
+    border-color: #c8844a;
+    padding: 30px 30px;
+    color: #fff;
+}
+
+.form-title {
+	text-align: center;
+	padding: 10px 5px;
+}

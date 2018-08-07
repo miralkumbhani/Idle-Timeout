@@ -1,0 +1,16 @@
+<div class="col-sm-3 login-container">
+	<form [formGroup]="loginForm">
+		<div class="form-title">
+			<h2>Login</h2>
+		</div>
+		<div class="form-group">
+			<label for="username">Email-Address:</label>
+			<input type="email" class="form-control" id="username" formControlName="email" placeholder="Enter email" autocomplete="off">
+		</div>
+		<div class="form-group">
+			 <label for="password">Password</label>
+			<input type="password" class="form-control" id="password" formControlName="password" placeholder="Password">
+		</div>
+  		<button type="submit" class="btn btn-primary" (click)="onSubmit()">Submit</button>
+	</form>
+</div>
